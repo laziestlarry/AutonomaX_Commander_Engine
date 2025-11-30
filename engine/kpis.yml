@@ -1,0 +1,28 @@
+kpis:
+  lead_flow:
+    description: "Weekly inbound opportunities"
+    thresholds:
+      red: 0-2
+      yellow: 3-7
+      green: 8+
+
+  product_output:
+    description: "Number of SKUs generated"
+    thresholds:
+      red: 0-2
+      yellow: 3-6
+      green: 7+
+
+  conversion:
+    description: "Conversion performance (percent)"
+    thresholds:
+      red: 0-1
+      yellow: 1-3
+      green: 4+
+
+  activity_velocity:
+    description: "System throughput and productivity"
+    thresholds:
+      red: "low"
+      yellow: "medium"
+      green: "high"

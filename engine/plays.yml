@@ -1,0 +1,37 @@
+plays:
+
+  ignite_product_run:
+    trigger:
+      kpi: product_output
+      condition: red
+    actions:
+      - agent: product_commander_ai
+        task: "Generate 3-5 Zen SKUs with emotional roles"
+      - agent: growth_commander_ai
+        task: "Prepare matching micro-campaign"
+      - agent: evidence_commander_ai
+        task: "Record product expansion proof"
+
+  funnel_activation:
+    trigger:
+      kpi: lead_flow
+      condition: red
+    actions:
+      - agent: commerce_commander_ai
+        task: "Build fast activation funnel (1 landing + 1 offer)"
+      - agent: infra_commander_ai
+        task: "Prepare deployable template"
+      - agent: evidence_commander_ai
+        task: "Snapshot funnel readiness"
+
+  conversion_boost:
+    trigger:
+      kpi: conversion
+      condition: red
+    actions:
+      - agent: commerce_commander_ai
+        task: "Rewrite core offer and messaging"
+      - agent: product_commander_ai
+        task: "Create higher-value bundle or upsell"
+      - agent: evidence_commander_ai
+        task: "Track expected impact and baseline"

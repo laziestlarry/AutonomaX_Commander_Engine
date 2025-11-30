@@ -1,0 +1,40 @@
+manifest:
+  repos:
+
+    profit_os_chimera:
+      role: "Core brain"
+      calls:
+        - load_kpis
+        - evaluate_kpis
+        - select_play
+        - orchestrate_agents
+
+    zentronomax:
+      role: "Zen product engine"
+      calls:
+        - generate_sku
+        - generate_listing
+        - emotional_roles
+
+    ai_command_center_2:
+      role: "Operator dashboard"
+      calls:
+        - display_kpis
+        - run_cycles
+        - trigger_actions
+
+    AutonomaX_Final_Pack:
+      role: "Distribution-ready demo kit"
+      content:
+        - demo_api
+        - dashboard
+        - ready_templates
+
+    Omega_Unified_Program_Starter:
+      role: "Starter template for new AutonomaX-compatible modules"
+
+    AutonomaX_Registry_Installer:
+      role: "Installer & registry"
+
+    appuniter:
+      role: "Unified service launcher"

@@ -1,0 +1,46 @@
+agents:
+
+  commander_core:
+    role: "Master orchestrator"
+    responsibilities:
+      - strategic_coordination
+      - decision_authority
+      - multi_agent_synchronization
+
+  commerce_commander_ai:
+    role: "Commerce, funnels, offer creation"
+    responsibilities:
+      - sales_architecture
+      - pricing
+      - offer_design
+      - crm_flows
+
+  product_commander_ai:
+    role: "Product engine (Zen, bundles, automation kits)"
+    responsibilities:
+      - sku_generation
+      - emotional_design
+      - bundle_creation
+      - listing_payloads
+
+  growth_commander_ai:
+    role: "KPI → Play → Action engine"
+    responsibilities:
+      - kpi_analysis
+      - play_selection
+      - growth_insights
+
+  evidence_commander_ai:
+    role: "Analytics + proof"
+    responsibilities:
+      - reporting
+      - documentation
+      - progress_dossiers
+
+  infra_commander_ai:
+    role: "Deployment + devops"
+    responsibilities:
+      - system_structure
+      - repo_health
+      - ci_cd
+      - runtime_stability
